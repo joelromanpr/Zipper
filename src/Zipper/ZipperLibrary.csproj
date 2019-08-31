@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>JR</Authors>
+    <Company>JR</Company>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A configuration based zipping library.</Description>
+    <Copyright>Copyright (c) 2019 JR</Copyright>
+    <PackageProjectUrl>https://github.com/joelrsosa/Zipper</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/joelrsosa/Zipper/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/joelrsosa/Zipper/blob/master/art/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/joelrsosa/Zipper</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>zip, dotnet, dotnet-standard</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetZip" Version="1.13.0" />
+  </ItemGroup>
+
+</Project>

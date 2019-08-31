@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZipperLibrary", "src\Zipper\ZipperLibrary.csproj", "{3E533ADA-6180-4C41-8FF8-6E3938724EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipperTests", "tests\ZipperTests\ZipperTests.csproj", "{21D3085C-CC8A-4C32-8B3A-4740B7A66A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E533ADA-6180-4C41-8FF8-6E3938724EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E533ADA-6180-4C41-8FF8-6E3938724EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E533ADA-6180-4C41-8FF8-6E3938724EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E533ADA-6180-4C41-8FF8-6E3938724EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D3085C-CC8A-4C32-8B3A-4740B7A66A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D3085C-CC8A-4C32-8B3A-4740B7A66A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D3085C-CC8A-4C32-8B3A-4740B7A66A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D3085C-CC8A-4C32-8B3A-4740B7A66A84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8AAB5FC-0192-4C24-BBBA-12FF7AD73EDB}
+	EndGlobalSection
+EndGlobal
